@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore", "BookStore\BookStore.csproj", "{97EBFD1D-86D9-461B-8B97-0A559F876252}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.API", "BookStore.API\BookStore.API.csproj", "{97EBFD1D-86D9-461B-8B97-0A559F876252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Core", "BookStore.Core\BookStore.Core.csproj", "{62A1A9CC-2C3E-40F5-A725-B3EC2DBB70CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.DataAccess", "BookStore.DataAccess\BookStore.DataAccess.csproj", "{23E61DBF-975A-42DB-8B16-1075046F0CEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +22,13 @@ Global
 		{97EBFD1D-86D9-461B-8B97-0A559F876252}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97EBFD1D-86D9-461B-8B97-0A559F876252}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97EBFD1D-86D9-461B-8B97-0A559F876252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A1A9CC-2C3E-40F5-A725-B3EC2DBB70CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A1A9CC-2C3E-40F5-A725-B3EC2DBB70CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A1A9CC-2C3E-40F5-A725-B3EC2DBB70CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A1A9CC-2C3E-40F5-A725-B3EC2DBB70CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23E61DBF-975A-42DB-8B16-1075046F0CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E61DBF-975A-42DB-8B16-1075046F0CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E61DBF-975A-42DB-8B16-1075046F0CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E61DBF-975A-42DB-8B16-1075046F0CEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
