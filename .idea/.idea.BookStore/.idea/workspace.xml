@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9c51997-0b53-45af-b935-d78b948af2e7" name="Changes" comment="Adde BooksStore.DataAccess.">
+    <list default="true" id="e9c51997-0b53-45af-b935-d78b948af2e7" name="Changes" comment="Test">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BookStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BookStore/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +25,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/BookStore.API/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/BookStore/BookStore.Core/Abstractions/IBooksRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/BookStore/BookStore.Core/Abstractions/IBooksRepository.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/BookStore/BookStore.Core/Models/Book.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -105,6 +107,9 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\dartw\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e9c51997-0b53-45af-b935-d78b948af2e7" name="Changes" comment="" />
@@ -115,7 +120,7 @@
       <workItem from="1718813684052" duration="1468000" />
       <workItem from="1718815233091" duration="45000" />
       <workItem from="1718815314945" duration="790000" />
-      <workItem from="1718900020959" duration="3586000" />
+      <workItem from="1718900020959" duration="4844000" />
     </task>
     <task id="LOCAL-00001" summary="Add template web api">
       <option name="closed" value="true" />
@@ -141,7 +146,39 @@
       <option name="project" value="LOCAL" />
       <updated>1718903118772</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Test commit.">
+      <option name="closed" value="true" />
+      <created>1718903664679</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718903664679</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Test commit.">
+      <option name="closed" value="true" />
+      <created>1718903744615</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718903744615</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Test.">
+      <option name="closed" value="true" />
+      <created>1718903831377</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718903831377</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Test">
+      <option name="closed" value="true" />
+      <created>1718904363754</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718904363754</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +191,9 @@
     <MESSAGE value="Add template web api" />
     <MESSAGE value="Add some projects." />
     <MESSAGE value="Adde BooksStore.DataAccess." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adde BooksStore.DataAccess." />
+    <MESSAGE value="Test commit." />
+    <MESSAGE value="Test." />
+    <MESSAGE value="Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
   </component>
 </project>
