@@ -5,9 +5,9 @@ public class Book
     public const int MAX_TITLE_LENGTH = 250;
     public Guid Id { get; }
 
-    public string Title { get; }
+    public string Title { get; } = string.Empty;
 
-    public string Description { get; }
+    public string Description { get; } = string.Empty;
 
     public decimal Price { get; }
 
