@@ -9,18 +9,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9c51997-0b53-45af-b935-d78b948af2e7" name="Changes" comment="Test">
-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookStore.API/Dockerfile" afterDir="false" />
+    <list default="true" id="e9c51997-0b53-45af-b935-d78b948af2e7" name="Changes" comment="Added connection to PostgresSQL.">
+      <change afterPath="$PROJECT_DIR$/BookStore.API/Contracts/BooksResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookStore.API/Controllers/BooksController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookStore.Core/Abstractions/IBooksService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BookStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BookStore/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookStore.API/BookStore.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.API/BookStore.API.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookStore.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore.API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.API/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Application/BookStore.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Application/BookStore.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Application/Services/BooksService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Application/Services/BooksService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.Core/BookStore.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Core/BookStore.Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.DataAccess/BookStore.DataAccess.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.DataAccess/BookStore.DataAccess.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -163,7 +170,7 @@
       <workItem from="1718815233091" duration="45000" />
       <workItem from="1718815314945" duration="790000" />
       <workItem from="1718900020959" duration="5061000" />
-      <workItem from="1718989263427" duration="1282000" />
+      <workItem from="1718989263427" duration="4598000" />
     </task>
     <task id="LOCAL-00001" summary="Add template web api">
       <option name="closed" value="true" />
@@ -229,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718904928061</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added connection to PostgresSQL.">
+      <option name="closed" value="true" />
+      <created>1718990733382</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718990733382</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +260,7 @@
     <MESSAGE value="Test commit." />
     <MESSAGE value="Test." />
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="Added connection to PostgresSQL." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added connection to PostgresSQL." />
   </component>
 </project>
