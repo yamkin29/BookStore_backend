@@ -9,7 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9c51997-0b53-45af-b935-d78b948af2e7" name="Changes" comment="Test" />
+    <list default="true" id="e9c51997-0b53-45af-b935-d78b948af2e7" name="Changes" comment="Test">
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BookStore.API/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BookStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BookStore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.API/BookStore.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.API/BookStore.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.API/appsettings.Development.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,10 +30,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/BookStore.API/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/BookStore/BookStore.Core/Abstractions/IBooksRepository.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/BookStore/BookStore.Core/Abstractions/IBooksRepository.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/BookStore/BookStore.Core/Abstractions/IBooksRepository.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/BookStore/BookStore.Core/Models/Book.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cd0ecebe72ea4d9d80da663a4687215d6d18/48/0bd8d737/ConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -39,6 +43,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Launch Settings Profile.BookStore: https.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -58,7 +63,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.BookStore: IIS Express">
+  <component name="RunManager" selected=".NET Launch Settings Profile.BookStore: https">
     <configuration name="BookStore: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/BookStore.API/BookStore.API.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -104,6 +109,44 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="BookStore.API/Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="bookstore.api" />
+          <option name="containerName" value="bookstore.api" />
+          <option name="contextFolderPath" value="C:\BookStore" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8080" />
+                <option name="hostIp" value="127.0.0.1" />
+                <option name="hostPort" value="8080" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="BookStore.API/Dockerfile" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -120,6 +163,7 @@
       <workItem from="1718815233091" duration="45000" />
       <workItem from="1718815314945" duration="790000" />
       <workItem from="1718900020959" duration="5061000" />
+      <workItem from="1718989263427" duration="1282000" />
     </task>
     <task id="LOCAL-00001" summary="Add template web api">
       <option name="closed" value="true" />
