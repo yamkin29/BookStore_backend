@@ -9,17 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9c51997-0b53-45af-b935-d78b948af2e7" name="Changes" comment="Added connection to PostgresSQL.">
-      <change afterPath="$PROJECT_DIR$/BookStore.API/Contracts/BooksResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookStore.API/Controllers/BooksController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookStore.Core/Abstractions/IBooksService.cs" afterDir="false" />
+    <list default="true" id="e9c51997-0b53-45af-b935-d78b948af2e7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BookStore.API/Contracts/BooksRequest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BookStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BookStore/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookStore.API/BookStore.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.API/BookStore.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.API/Contracts/BooksResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.API/Contracts/BooksResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.API/Controllers/BooksController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.API/Controllers/BooksController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.API/appsettings.Development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookStore.Application/BookStore.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Application/BookStore.Application.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore.Application/Services/BooksService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Application/Services/BooksService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookStore.Core/BookStore.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.Core/BookStore.Core.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookStore.DataAccess/BookStore.DataAccess.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.DataAccess/BookStore.DataAccess.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.DataAccess/Migrations/20240621181301_init.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.DataAccess/Migrations/20240621181301_init.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.DataAccess/Migrations/BookStoreDbContextModelSnapshot.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +41,10 @@
     <setting file="file://$PROJECT_DIR$/BookStore.API/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cd0ecebe72ea4d9d80da663a4687215d6d18/48/0bd8d737/ConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -51,6 +57,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     ".NET Launch Settings Profile.BookStore: https.executor": "Run",
+    "Docker.BookStore.API.postgres: Compose Deployment.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -137,12 +144,32 @@
       <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
+    <configuration name="BookStore.API.postgres: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="postgres" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="BookStore.API/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
     <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
@@ -154,6 +181,11 @@
       <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.BookStore.API.postgres: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -170,7 +202,8 @@
       <workItem from="1718815233091" duration="45000" />
       <workItem from="1718815314945" duration="790000" />
       <workItem from="1718900020959" duration="5061000" />
-      <workItem from="1718989263427" duration="4598000" />
+      <workItem from="1718989263427" duration="4646000" />
+      <workItem from="1719055113090" duration="5003000" />
     </task>
     <task id="LOCAL-00001" summary="Add template web api">
       <option name="closed" value="true" />
@@ -244,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718990733382</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add some controllers and completed migrations.">
+      <option name="closed" value="true" />
+      <created>1718993957376</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718993957376</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +302,7 @@
     <MESSAGE value="Test." />
     <MESSAGE value="Test" />
     <MESSAGE value="Added connection to PostgresSQL." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added connection to PostgresSQL." />
+    <MESSAGE value="Add some controllers and completed migrations." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add some controllers and completed migrations." />
   </component>
 </project>

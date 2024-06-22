@@ -1,7 +1,6 @@
 ﻿namespace BookStore.Contracts;
 
-public record BooksResponse(
-    Guid Id,
+public record BooksRequest(
     string Title,
     string Description,
     decimal Price);
