@@ -9,12 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9c51997-0b53-45af-b935-d78b948af2e7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BookStore.Core/Models/LoginModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookStore.Core/Models/RegisterModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BookStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BookStore/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookStore.DataAccess/Entities/UserEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.DataAccess/Entities/UserEntity.cs" afterDir="false" />
-    </list>
+    <list default="true" id="e9c51997-0b53-45af-b935-d78b948af2e7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -213,7 +208,7 @@
       <workItem from="1719242050044" duration="1024000" />
       <workItem from="1719331103130" duration="757000" />
       <workItem from="1719414230163" duration="4303000" />
-      <workItem from="1719507724680" duration="355000" />
+      <workItem from="1719507724680" duration="729000" />
     </task>
     <task id="LOCAL-00001" summary="Add template web api">
       <option name="closed" value="true" />
@@ -319,7 +314,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719416613583</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added business models.">
+      <option name="closed" value="true" />
+      <created>1719508219854</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719508219854</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,6 +343,7 @@
     <MESSAGE value="Added Cors." />
     <MESSAGE value="Minor edits." />
     <MESSAGE value="Added some entities and update class Program.cs." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some entities and update class Program.cs." />
+    <MESSAGE value="Added business models." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added business models." />
   </component>
 </project>
