@@ -209,6 +209,7 @@
       <workItem from="1719331103130" duration="757000" />
       <workItem from="1719414230163" duration="4303000" />
       <workItem from="1719507724680" duration="729000" />
+      <workItem from="1719590407014" duration="123000" />
     </task>
     <task id="LOCAL-00001" summary="Add template web api">
       <option name="closed" value="true" />
@@ -322,7 +323,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719508219854</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added AccountController.cs">
+      <option name="closed" value="true" />
+      <created>1719590514479</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719590514479</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,6 +353,7 @@
     <MESSAGE value="Minor edits." />
     <MESSAGE value="Added some entities and update class Program.cs." />
     <MESSAGE value="Added business models." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added business models." />
+    <MESSAGE value="Added AccountController.cs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added AccountController.cs" />
   </component>
 </project>
