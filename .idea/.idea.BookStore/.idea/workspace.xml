@@ -214,6 +214,7 @@
       <workItem from="1719856264939" duration="119000" />
       <workItem from="1720016507659" duration="312000" />
       <workItem from="1720114216177" duration="66000" />
+      <workItem from="1720285357282" duration="189000" />
     </task>
     <task id="LOCAL-00001" summary="Add template web api">
       <option name="closed" value="true" />
@@ -367,7 +368,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720114272493</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Continue work for Configure.">
+      <option name="closed" value="true" />
+      <created>1720285535484</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1720285535484</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,6 +403,7 @@
     <MESSAGE value="Add ctor LoginModel.cs" />
     <MESSAGE value="Added and changed some business models." />
     <MESSAGE value="Added minor edits." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added minor edits." />
+    <MESSAGE value="Continue work for Configure." />
+    <option name="LAST_COMMIT_MESSAGE" value="Continue work for Configure." />
   </component>
 </project>
