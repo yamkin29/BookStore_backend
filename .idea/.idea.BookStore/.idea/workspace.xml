@@ -9,7 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9c51997-0b53-45af-b935-d78b948af2e7" name="Changes" comment="" />
+    <list default="true" id="e9c51997-0b53-45af-b935-d78b948af2e7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/BookStore.API/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.API/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStore.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/BookStore.API/appsettings.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,11 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="16f774bb-3bda-486a-8eb9-c43c9b8a0f6e" />
-  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/BookStore.API/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/BookStore/BookStore_backend/BookStore.API/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/BookStore/BookStore_backend/BookStore.DataAccess/Configurations/UserConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/aspnetcore/da7e9894ce22ef8cc02e5acc56e95a6f8cf8f644/src/Identity/Extensions.Stores/src/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a6ca83fd68634bcf88b36fa07a3599b426a020/02/1e4f6ed1/IEntityTypeConfiguration`1.cs" root0="SKIP_HIGHLIGHTING" />
@@ -69,7 +70,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Docker.BookStore.API.postgres: Compose Deployment">
+  <component name="RunManager" selected=".NET Launch Settings Profile.BookStore: https">
     <configuration name="BookStore | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/BookStore.API/BookStore.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -216,6 +217,7 @@
       <workItem from="1720114216177" duration="66000" />
       <workItem from="1720285357282" duration="189000" />
       <workItem from="1720372236722" duration="52000" />
+      <workItem from="1723042957247" duration="3585000" />
     </task>
     <task id="LOCAL-00001" summary="Add template web api">
       <option name="closed" value="true" />
@@ -385,7 +387,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720372277722</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Test commit.">
+      <option name="closed" value="true" />
+      <created>1723267401519</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1723267401519</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
