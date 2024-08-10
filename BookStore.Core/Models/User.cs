@@ -1,8 +1,10 @@
 ﻿namespace BookStore.Core.Models;
 
-public class RegisterModel
+public class User
 {
     public const int MAX_EMAIL_LENGTH = 250;
+    
+    public Guid Id { get; }
     
     public string Email { get; }
 
@@ -12,24 +14,25 @@ public class RegisterModel
     
     public string LastName  { get; }
 
-    public RegisterModel(string email, string password, string firstName, string lastName)
+    public User(Guid id, string email, string password, string firstName, string lastName)
     {
+        Id = id;
         Email = email;
         Password = password;
         FirstName = firstName;
         LastName = lastName;
     }
 
-    public static (RegisterModel registerModel, string error) Create(string email, string password, string firstName, string lastName)
+    public static (User registerModel, string error) Create(Guid id, string email, string password, string firstName, string lastName)
     {
         var error = string.Empty;
 
         if (string.IsNullOrEmpty(email) || email.Length  > MAX_EMAIL_LENGTH)
         {
-            error  = "Title cannot be null or empty";
+            error  = "Email cannot be null or empty";
         }
         
-        var registerModel  = new RegisterModel(email, password, firstName, lastName);
+        var registerModel  = new User(id, email, password, firstName, lastName);
         
         return (registerModel, error);
     }

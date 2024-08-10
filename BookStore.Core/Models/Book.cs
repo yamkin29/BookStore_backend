@@ -3,6 +3,7 @@
 public class Book
 {
     public const int MAX_TITLE_LENGTH = 250;
+    
     public Guid Id { get; }
 
     public string Title { get; }

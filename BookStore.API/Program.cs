@@ -45,6 +45,7 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddScoped<IBooksService, BooksService>();
 builder.Services.AddScoped<IBooksRepository, BooksRepository>();
+builder.Services.AddScoped<IUsersRepository, UserRepository>();
 
 var app = builder.Build();
 
